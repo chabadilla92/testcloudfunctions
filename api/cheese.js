@@ -3,7 +3,7 @@ module.exports = (req, res) => {
         body: req.body,
         headers: req.headers,
         query: req.query,
-        cookies = req.cookies,
+        cookies: req.cookies,
         method: req.method
     })
 }
